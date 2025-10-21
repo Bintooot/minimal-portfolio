@@ -282,6 +282,7 @@ div#about-me-info > ul > li {
 
 div#about-me-info > ul > li {
   list-style-type: none;
+  line-height: 1.5;
 }
 
 div#about-me-info > ul > li > span {
