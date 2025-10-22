@@ -10,22 +10,28 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/design.css" />
-    <base href="./assets/images/" />
+
     <title>Personal Portfolio</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li class="nav-item" id="home-nav">Home</li>
-        <li class="nav-item" id="about-me-nav">About Me</li>
-        <li class="nav-item" id="skills-nav">Skills</li>
-        <li class="nav-item" id="experience-nav">Work Experience</li>
-        <li class="nav-item" id="contact-me-nav">Contact Me</li>
+        <li class="nav-item" id="home-nav"><a href="#home">Home</a></li>
+        <li class="nav-item" id="about-me-nav">
+          <a href="#about-me"> About Me</a>
+        </li>
+        <li class="nav-item" id="skills-nav"><a href="#skills"> Skills</a></li>
+        <li class="nav-item" id="experience-nav">
+          <a href="#experience">Work Experience</a>
+        </li>
+        <li class="nav-item" id="contact-me-nav">
+          <a href="#contact-me">Contact Me</a>
+        </li>
       </ul>
     </nav>
 
     <!-- Start Hero Section -->
-    <main class="hero">
+    <main class="hero" id="home">
       <!--  <section id="hero-info">
         <div id="content-wrapper">
           <div>
@@ -56,7 +62,7 @@
           </div>
         </div>
 
-        <img src="photo.png" alt="photo.png" id="hero-image" />
+        <img src="./assets/images/photo.png" alt="photo.png" id="hero-image" />
 
         <div class="hero-right">
           <div id="top-right">
@@ -80,7 +86,7 @@
     <!-- End Division -->
 
     <!-- Start About Me Section -->
-    <section class="about-me">
+    <section class="about-me" id="about-me">
       <div id="about-me-heading">
         <h2>About <span>Me</span></h2>
       </div>
@@ -111,5 +117,21 @@
       </div>
     </section>
     <!-- End About Me Section -->
+
+    <!-- Start Skills Section -->
+
+    <section class="skills" id="skills">
+      <div id="skills-content">
+        <p id="top-text">I can do</p>
+        <div id="bottom-text">
+          <div>
+            <span>Icons</span>
+          </div>
+          <p>Microsoft Word</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Skills Section -->
   </body>
 </html>
