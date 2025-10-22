@@ -30,6 +30,7 @@ nav {
   height: 80px;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav > ul {
@@ -300,6 +301,42 @@ div#about-me-info > ul > li {
 
 div#about-me-info > ul > li > span {
   color: var(--text-highlighter);
+}
+
+section.gallery {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+section.gallery > div.gallery-cover {
+  border: 1px solid rgba(208, 208, 208, 0.66);
+  box-shadow: 0 10px 10px 0 var(--accent);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#photo1 {
+  transform: rotate(-2deg) scale(1);
+}
+#photo2 {
+  transform: rotate(5deg) scale(1);
+}
+#photo3 {
+  transform: rotate(2deg) scale(1);
+}
+
+#photo1:hover,
+#photo2:hover,
+#photo3:hover {
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 0 0 10px 5px var(--accent);
+}
+
+div.gallery-cover > img {
+  width: 380px;
+  height: 380px;
 }
 
 /* Skills Section */
