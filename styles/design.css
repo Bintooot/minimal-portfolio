@@ -380,3 +380,8 @@ div#bottom-text > div {
   align-items: center;
   justify-content: center;
 }
+
+#icon {
+  width: 120px;
+  height: 120px;
+}
