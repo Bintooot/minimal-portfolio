@@ -357,7 +357,6 @@ section.skills {
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: var(--text-highlighter);
 }
 
@@ -437,7 +436,6 @@ section.skills {
 }
 
 /* Work Experience */
-
 section.work-experience {
   width: 100%;
   min-height: 100vh;
@@ -540,7 +538,7 @@ div#work-experience-header > h1 {
 
 .contact-me {
   width: 100%;
-  height: 80vh;
+  height: 70vh;
   background: var(--text-highlighter);
   padding: 6rem 2rem;
 }
@@ -552,13 +550,13 @@ div#work-experience-header > h1 {
 }
 
 .contact-me-header > h2 {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-family: var(--font-heading);
   text-transform: uppercase;
 }
 
 .contact-me-header > p {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: var(--font-sub-heading);
 }
 
